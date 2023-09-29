@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D66694B2AC7571600C23302 /* AddChainTokenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66694A2AC7571600C23302 /* AddChainTokenApp.swift */; };
+		5D66694D2AC7571600C23302 /* ListChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66694C2AC7571600C23302 /* ListChainView.swift */; };
+		5D66694F2AC7571700C23302 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D66694E2AC7571700C23302 /* Assets.xcassets */; };
+		5D6669522AC7571700C23302 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D6669512AC7571700C23302 /* Preview Assets.xcassets */; };
+		5D66695C2AC7571700C23302 /* AddChainTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66695B2AC7571700C23302 /* AddChainTokenTests.swift */; };
+		5D6669662AC7571700C23302 /* AddChainTokenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669652AC7571700C23302 /* AddChainTokenUITests.swift */; };
+		5D6669682AC7571700C23302 /* AddChainTokenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669672AC7571700C23302 /* AddChainTokenUITestsLaunchTests.swift */; };
+		5D6669762AC7574D00C23302 /* ERC20.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669752AC7574D00C23302 /* ERC20.swift */; };
+		5D6669792AC7577700C23302 /* metamask-ios-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = 5D6669782AC7577700C23302 /* metamask-ios-sdk */; };
+		5D66697B2AC7589B00C23302 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66697A2AC7589B00C23302 /* Tokens.swift */; };
+		5D66697E2AC75A5500C23302 /* TokenCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D66697D2AC75A5500C23302 /* TokenCardView.swift */; };
+		5D6669822AC7643C00C23302 /* ListChainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669812AC7643B00C23302 /* ListChainViewModel.swift */; };
+		5D6669852AC7678300C23302 /* TokenCardViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669842AC7678300C23302 /* TokenCardViewStyle.swift */; };
+		5D6669892AC7761000C23302 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6669882AC7761000C23302 /* CustomButtonStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D6669582AC7571700C23302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D66693F2AC7571600C23302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6669462AC7571600C23302;
+			remoteInfo = AddChainToken;
+		};
+		5D6669622AC7571700C23302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D66693F2AC7571600C23302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D6669462AC7571600C23302;
+			remoteInfo = AddChainToken;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D6669472AC7571600C23302 /* AddChainToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddChainToken.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66694A2AC7571600C23302 /* AddChainTokenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChainTokenApp.swift; sourceTree = "<group>"; };
+		5D66694C2AC7571600C23302 /* ListChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChainView.swift; sourceTree = "<group>"; };
+		5D66694E2AC7571700C23302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D6669512AC7571700C23302 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D6669572AC7571700C23302 /* AddChainTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddChainTokenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D66695B2AC7571700C23302 /* AddChainTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChainTokenTests.swift; sourceTree = "<group>"; };
+		5D6669612AC7571700C23302 /* AddChainTokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddChainTokenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D6669652AC7571700C23302 /* AddChainTokenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChainTokenUITests.swift; sourceTree = "<group>"; };
+		5D6669672AC7571700C23302 /* AddChainTokenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChainTokenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D6669752AC7574D00C23302 /* ERC20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ERC20.swift; sourceTree = "<group>"; };
+		5D66697A2AC7589B00C23302 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		5D66697D2AC75A5500C23302 /* TokenCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardView.swift; sourceTree = "<group>"; };
+		5D6669812AC7643B00C23302 /* ListChainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListChainViewModel.swift; sourceTree = "<group>"; };
+		5D6669842AC7678300C23302 /* TokenCardViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenCardViewStyle.swift; sourceTree = "<group>"; };
+		5D6669882AC7761000C23302 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D6669442AC7571600C23302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6669792AC7577700C23302 /* metamask-ios-sdk in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6669542AC7571700C23302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66695E2AC7571700C23302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D66693E2AC7571600C23302 = {
+			isa = PBXGroup;
+			children = (
+				5D6669492AC7571600C23302 /* AddChainToken */,
+				5D66695A2AC7571700C23302 /* AddChainTokenTests */,
+				5D6669642AC7571700C23302 /* AddChainTokenUITests */,
+				5D6669482AC7571600C23302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D6669482AC7571600C23302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669472AC7571600C23302 /* AddChainToken.app */,
+				5D6669572AC7571700C23302 /* AddChainTokenTests.xctest */,
+				5D6669612AC7571700C23302 /* AddChainTokenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D6669492AC7571600C23302 /* AddChainToken */ = {
+			isa = PBXGroup;
+			children = (
+				5D66694A2AC7571600C23302 /* AddChainTokenApp.swift */,
+				5D66694E2AC7571700C23302 /* Assets.xcassets */,
+				5D6669742AC7573800C23302 /* Model */,
+				5D6669502AC7571700C23302 /* Preview Content */,
+				5D66697C2AC75A3F00C23302 /* View */,
+			);
+			path = AddChainToken;
+			sourceTree = "<group>";
+		};
+		5D6669502AC7571700C23302 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669512AC7571700C23302 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D66695A2AC7571700C23302 /* AddChainTokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D66695B2AC7571700C23302 /* AddChainTokenTests.swift */,
+			);
+			path = AddChainTokenTests;
+			sourceTree = "<group>";
+		};
+		5D6669642AC7571700C23302 /* AddChainTokenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669652AC7571700C23302 /* AddChainTokenUITests.swift */,
+				5D6669672AC7571700C23302 /* AddChainTokenUITestsLaunchTests.swift */,
+			);
+			path = AddChainTokenUITests;
+			sourceTree = "<group>";
+		};
+		5D6669742AC7573800C23302 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669752AC7574D00C23302 /* ERC20.swift */,
+				5D66697A2AC7589B00C23302 /* Tokens.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5D66697C2AC75A3F00C23302 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5D66697F2AC7641500C23302 /* ListChain */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5D66697F2AC7641500C23302 /* ListChain */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669832AC7677500C23302 /* style */,
+				5D6669802AC7642800C23302 /* subView */,
+				5D66694C2AC7571600C23302 /* ListChainView.swift */,
+				5D6669812AC7643B00C23302 /* ListChainViewModel.swift */,
+			);
+			path = ListChain;
+			sourceTree = "<group>";
+		};
+		5D6669802AC7642800C23302 /* subView */ = {
+			isa = PBXGroup;
+			children = (
+				5D66697D2AC75A5500C23302 /* TokenCardView.swift */,
+			);
+			path = subView;
+			sourceTree = "<group>";
+		};
+		5D6669832AC7677500C23302 /* style */ = {
+			isa = PBXGroup;
+			children = (
+				5D6669842AC7678300C23302 /* TokenCardViewStyle.swift */,
+				5D6669882AC7761000C23302 /* CustomButtonStyle.swift */,
+			);
+			path = style;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D6669462AC7571600C23302 /* AddChainToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D66696B2AC7571700C23302 /* Build configuration list for PBXNativeTarget "AddChainToken" */;
+			buildPhases = (
+				5D6669432AC7571600C23302 /* Sources */,
+				5D6669442AC7571600C23302 /* Frameworks */,
+				5D6669452AC7571600C23302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddChainToken;
+			packageProductDependencies = (
+				5D6669782AC7577700C23302 /* metamask-ios-sdk */,
+			);
+			productName = AddChainToken;
+			productReference = 5D6669472AC7571600C23302 /* AddChainToken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D6669562AC7571700C23302 /* AddChainTokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D66696E2AC7571700C23302 /* Build configuration list for PBXNativeTarget "AddChainTokenTests" */;
+			buildPhases = (
+				5D6669532AC7571700C23302 /* Sources */,
+				5D6669542AC7571700C23302 /* Frameworks */,
+				5D6669552AC7571700C23302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6669592AC7571700C23302 /* PBXTargetDependency */,
+			);
+			name = AddChainTokenTests;
+			productName = AddChainTokenTests;
+			productReference = 5D6669572AC7571700C23302 /* AddChainTokenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D6669602AC7571700C23302 /* AddChainTokenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D6669712AC7571700C23302 /* Build configuration list for PBXNativeTarget "AddChainTokenUITests" */;
+			buildPhases = (
+				5D66695D2AC7571700C23302 /* Sources */,
+				5D66695E2AC7571700C23302 /* Frameworks */,
+				5D66695F2AC7571700C23302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D6669632AC7571700C23302 /* PBXTargetDependency */,
+			);
+			name = AddChainTokenUITests;
+			productName = AddChainTokenUITests;
+			productReference = 5D6669612AC7571700C23302 /* AddChainTokenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D66693F2AC7571600C23302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					5D6669462AC7571600C23302 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					5D6669562AC7571700C23302 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5D6669462AC7571600C23302;
+					};
+					5D6669602AC7571700C23302 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 5D6669462AC7571600C23302;
+					};
+				};
+			};
+			buildConfigurationList = 5D6669422AC7571600C23302 /* Build configuration list for PBXProject "AddChainToken" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D66693E2AC7571600C23302;
+			packageReferences = (
+				5D6669772AC7577700C23302 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */,
+			);
+			productRefGroup = 5D6669482AC7571600C23302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D6669462AC7571600C23302 /* AddChainToken */,
+				5D6669562AC7571700C23302 /* AddChainTokenTests */,
+				5D6669602AC7571700C23302 /* AddChainTokenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D6669452AC7571600C23302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6669522AC7571700C23302 /* Preview Assets.xcassets in Resources */,
+				5D66694F2AC7571700C23302 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6669552AC7571700C23302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66695F2AC7571700C23302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D6669432AC7571600C23302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66694D2AC7571600C23302 /* ListChainView.swift in Sources */,
+				5D66694B2AC7571600C23302 /* AddChainTokenApp.swift in Sources */,
+				5D6669892AC7761000C23302 /* CustomButtonStyle.swift in Sources */,
+				5D6669762AC7574D00C23302 /* ERC20.swift in Sources */,
+				5D66697B2AC7589B00C23302 /* Tokens.swift in Sources */,
+				5D6669822AC7643C00C23302 /* ListChainViewModel.swift in Sources */,
+				5D66697E2AC75A5500C23302 /* TokenCardView.swift in Sources */,
+				5D6669852AC7678300C23302 /* TokenCardViewStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D6669532AC7571700C23302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D66695C2AC7571700C23302 /* AddChainTokenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D66695D2AC7571700C23302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D6669682AC7571700C23302 /* AddChainTokenUITestsLaunchTests.swift in Sources */,
+				5D6669662AC7571700C23302 /* AddChainTokenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D6669592AC7571700C23302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6669462AC7571600C23302 /* AddChainToken */;
+			targetProxy = 5D6669582AC7571700C23302 /* PBXContainerItemProxy */;
+		};
+		5D6669632AC7571700C23302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D6669462AC7571600C23302 /* AddChainToken */;
+			targetProxy = 5D6669622AC7571700C23302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D6669692AC7571700C23302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D66696A2AC7571700C23302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D66696C2AC7571700C23302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AddChainToken/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LF4A2398Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudio.AddChainToken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D66696D2AC7571700C23302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AddChainToken/Preview Content\"";
+				DEVELOPMENT_TEAM = 3LF4A2398Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudio.AddChainToken;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D66696F2AC7571700C23302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LF4A2398Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudio.AddChainTokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddChainToken.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AddChainToken";
+			};
+			name = Debug;
+		};
+		5D6669702AC7571700C23302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LF4A2398Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudio.AddChainTokenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddChainToken.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AddChainToken";
+			};
+			name = Release;
+		};
+		5D6669722AC7571700C23302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LF4A2398Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudio.AddChainTokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddChainToken;
+			};
+			name = Debug;
+		};
+		5D6669732AC7571700C23302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LF4A2398Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.claudio.AddChainTokenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddChainToken;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D6669422AC7571600C23302 /* Build configuration list for PBXProject "AddChainToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6669692AC7571700C23302 /* Debug */,
+				5D66696A2AC7571700C23302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D66696B2AC7571700C23302 /* Build configuration list for PBXNativeTarget "AddChainToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66696C2AC7571700C23302 /* Debug */,
+				5D66696D2AC7571700C23302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D66696E2AC7571700C23302 /* Build configuration list for PBXNativeTarget "AddChainTokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D66696F2AC7571700C23302 /* Debug */,
+				5D6669702AC7571700C23302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D6669712AC7571700C23302 /* Build configuration list for PBXNativeTarget "AddChainTokenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D6669722AC7571700C23302 /* Debug */,
+				5D6669732AC7571700C23302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5D6669772AC7577700C23302 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MetaMask/metamask-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5D6669782AC7577700C23302 /* metamask-ios-sdk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5D6669772AC7577700C23302 /* XCRemoteSwiftPackageReference "metamask-ios-sdk" */;
+			productName = "metamask-ios-sdk";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5D66693F2AC7571600C23302 /* Project object */;
+}
