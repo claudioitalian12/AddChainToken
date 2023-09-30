@@ -74,7 +74,7 @@ struct TokenCardView: View {
                 address: "",
                 symbol: "",
                 image: "",
-                decimals: 18.0
+                decimals: 18
             )
         ),
         action: {}

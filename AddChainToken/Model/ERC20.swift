@@ -33,9 +33,9 @@ struct Options: CodableData, Identifiable {
     var id: UUID = UUID()
 
     let address, symbol, image: String
-    let decimals: Double
+    let decimals: Int
 
-    init(address: String, symbol: String, image: String, decimals: Double) {
+    init(address: String, symbol: String, image: String, decimals: Int) {
         self.address = address
         self.symbol = symbol
         self.image = image
